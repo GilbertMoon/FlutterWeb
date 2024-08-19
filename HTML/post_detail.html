@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Detail</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Flutter Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Post Content -->
+            <div class="col-md-8">
+                <article>
+                    <h1 class="mt-4">Post Title</h1>
+                    <p class="lead">
+                        by <a href="#">Author Name</a>
+                    </p>
+                    <hr>
+                    <p><small class="text-muted">Posted on July 15, 2024 at 12:00 PM</small></p>
+                    <hr>
+                    <p class="lead">This is the main content of the post. Here, you can add text, images, and other elements to enrich the content.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend quam ac massa blandit, in gravida eros posuere. Nullam accumsan interdum nisi, at ullamcorper metus luctus at. Vivamus efficitur magna vel nunc fermentum, nec tristique metus varius.</p>
+                    <img src="https://via.placeholder.com/800x400" class="img-fluid mb-4" alt="Post Image">
+                    <pre><code class="language-html">&lt;p&gt;This is a sample code snippet.&lt;/p&gt;</code></pre>
+                    <p>Additional content can be added below the code snippet to further explain the topic.</p>
+                </article>
+
+                <!-- Share Buttons -->
+                <div class="my-4">
+                    <h5>Share this post:</h5>
+                    <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="#" class="btn btn-info"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="btn btn-danger"><i class="fab fa-google-plus-g"></i> Google+</a>
+                </div>
+
+                <!-- Comments Section -->
+                <div class="card my-4">
+                    <h5 class="card-header">Leave a Comment:</h5>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Write your comment here..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Display Comments -->
+                <div class="media mb-4">
+                    <img src="https://via.placeholder.com/50" alt="User Avatar" class="mr-3 rounded-circle">
+                    <div class="media-body">
+                        <h5 class="mt-0">Commenter Name</h5>
+                        This is a sample comment. It's a great place to leave feedback or discuss the post.
+                    </div>
+                </div>
+
+                <div class="media mb-4">
+                    <img src="https://via.placeholder.com/50" alt="User Avatar" class="mr-3 rounded-circle">
+                    <div class="media-body">
+                        <h5 class="mt-0">Another Commenter</h5>
+                        This is another sample comment. Comments can have multiple replies or reactions.
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Sidebar Widgets -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">Related Posts</div>
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item">Related Post 1</a>
+                        <a href="#" class="list-group-item">Related Post 2</a>
+                        <a href="#" class="list-group-item">Related Post 3</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">Categories</div>
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item">Category 1</a>
+                        <a href="#" class="list-group-item">Category 2</a>
+                        <a href="#" class="list-group-item">Category 3</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Flutter Blog. All Rights Reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Service</a> |
+                <a href="#">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
